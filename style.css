@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-blue: hsl(215, 32%, 27%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+
+
+body {
+    background-color: var(--main-bg);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: var(--card-bg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center; */
+    /* padding: 20px; */
+
+}
+
+.card-content {
+    /* width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100px; */
+    margin-top: 5%;
+}
+
+.showcase-img {
+    height: 250px;
+    width: 100%;
+}
+
+.card .showcase-img img {
+    width: 100%;
+    height: 100%;
+    border: 5px;
+}
+
+
+ .equilibruim-heading {
+    color: var(--white-color);
+    font-size: 22px;
+    margin-top: 20px;
+} 
+
+.equilibruim-para {
+    color: rgb(163, 159, 159);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.flex-item .item1,  .flex-item .item2 {
+    display: flex;
+}
+
+.flex-item .item1 p {
+    color: rgb(0, 255, 248);
+}
+
+.flex-item .item2 p {
+    color: rgb(163, 159, 159);
+}
+
+.flex-item p {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer span {
+    color: rgb(163, 159, 159);
+}
+
+.footer p {
+    margin-left: 1rem;
+    font-size: 1rem;
+    word-spacing: 0.1rem;
+  }
+
+  .spacer {
+      height: 1px;
+      width: 100%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(163, 159, 159);
+  }
